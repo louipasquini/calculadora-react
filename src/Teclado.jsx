@@ -132,8 +132,8 @@ const Teclado = () => {
                 <Tecla onClick={del}>Del</Tecla>
             </div>
             <div>
-                <Tecla>.</Tecla>
-                <Tecla>0</Tecla>
+                <Tecla onClick={ponto}>.</Tecla>
+                <Tecla onClick={zero}>0</Tecla>
                 <Tecla onClick={resultado}>=</Tecla>
                 <Tecla onClick={C}>C</Tecla>
             </div>
